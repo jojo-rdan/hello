@@ -4,6 +4,8 @@ import (
 	"fmt"
 
 	"github.com/jojo-rdan/hello/greet"
+
+	"rsc.io/quote"
 )
 
 func main() {
@@ -13,5 +15,7 @@ func main() {
 	// incluída la función "Println" la cuál tiene
 	// la primera letra en mayúscula
 	fmt.Println(greet.English())
+
+	fmt.Println(quote.Hello())
 
 }
