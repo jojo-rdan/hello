@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/jojo-rdan/hello/greet"
+)
 
 func main() {
 	// para exportar identificadores siempre utilizamos
@@ -8,7 +12,6 @@ func main() {
 	// en este caso fmt es el paquete donde está
 	// incluída la función "Println" la cuál tiene
 	// la primera letra en mayúscula
-	fmt.Println("Hello")
+	fmt.Println(greet.English())
 
-	greet.English()
 }
