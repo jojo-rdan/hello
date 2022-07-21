@@ -5,7 +5,7 @@ import (
 
 	"github.com/jojo-rdan/hello/greet"
 
-	"rsc.io/quote"
+	"rsc.io/quote/v3"
 )
 
 func main() {
@@ -16,6 +16,8 @@ func main() {
 	// la primera letra en mayúscula
 	fmt.Println(greet.English())
 
-	fmt.Println(quote.Hello())
+	fmt.Println(quote.HelloV3())
+
+	fmt.Println(quote.Concurrency())
 
 }
